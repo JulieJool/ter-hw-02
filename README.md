@@ -38,6 +38,38 @@
 - [Группа ВМ с сетевым балансировщиком](https://cloud.yandex.ru/docs/compute/operations/instance-groups/create-with-balancer).
 
 ---
+
+## Решение
+
+
+
+[main.tf](https://github.com/JulieJool/ter-hw-02/blob/main/main.tf)     
+[providers.tf](https://github.com/JulieJool/ter-hw-02/blob/main/providers.tf)      
+[variables.tf](https://github.com/JulieJool/ter-hw-02/blob/main/variables.tf)      
+[terraform.tfvars](https://github.com/JulieJool/ter-hw-02/blob/main/terraform.tfvars)     
+
+
+![1](https://github.com/JulieJool/ter-hw-02/blob/main/img/1.png)     
+![2](https://github.com/JulieJool/ter-hw-02/blob/main/img/2.png)     
+![3](https://github.com/JulieJool/ter-hw-02/blob/main/img/3.png)     
+![4](https://github.com/JulieJool/ter-hw-02/blob/main/img/4.png)     
+![5](https://github.com/JulieJool/ter-hw-02/blob/main/img/5.png)     
+![6](https://github.com/JulieJool/ter-hw-02/blob/main/img/6.png)     
+![7](https://github.com/JulieJool/ter-hw-02/blob/main/img/7.png)     
+![8](https://github.com/JulieJool/ter-hw-02/blob/main/img/8.png)     
+
+Удаляем одну из машин:    
+![9](https://github.com/JulieJool/ter-hw-02/blob/main/img/9.png)     
+![10](https://github.com/JulieJool/ter-hw-02/blob/main/img/10.png)     
+
+Новая ВМ уже создана с помощью инстанс-группы:      
+![11](https://github.com/JulieJool/ter-hw-02/blob/main/img/11.png)     
+![12](https://github.com/JulieJool/ter-hw-02/blob/main/img/12.png)     
+![13](https://github.com/JulieJool/ter-hw-02/blob/main/img/13.png)     
+
+
+
+
 ## Задание 2*. AWS (задание со звёздочкой)
 
 Это необязательное задание. Его выполнение не влияет на получение зачёта по домашней работе.
